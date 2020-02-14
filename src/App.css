@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.weatherDetail{
+  width:60%;
+  margin-left: 18%;
+  margin-top: 50px;
+  padding: 50px 0px 50px 0px ;
+  background-color: #61dafb;
+  border-radius: 10px;
+}
+
+.singleItem{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr ;
+}
+
+.info_name{
+  padding: 10px;
+  text-align: right;
+  color:black;
+}
+
+.info_detail{
+  padding:10px;
+  margin-left: 20px;
+  text-align: left;
+}
