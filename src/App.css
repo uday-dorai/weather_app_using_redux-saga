@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url('./image/WeatherLock-Lock-screen-730x480.jpg');
+  height: 640px;
+  margin: 0px;
 }
 
 .App-logo {
@@ -39,27 +42,74 @@
 
 
 .weatherDetail{
-  width:60%;
-  margin-left: 18%;
-  margin-top: 50px;
-  padding: 50px 0px 50px 0px ;
-  background-color: #61dafb;
+  width:50%;
+  margin-left: 10%;
+  /* margin-top: 20px; */
+  padding: 30px 0px 50px 0px ;
+  /* background-color: #61dafb; */
   border-radius: 10px;
 }
 
 .singleItem{
   display: grid;
-  grid-template-columns: 0.5fr 1fr ;
+  grid-template-columns: 0.3fr 0.5fr ;
 }
 
 .info_name{
+  /* background-color: blanchedalmond; */
   padding: 10px;
-  text-align: right;
+  text-align: left;
   color:black;
+  border: 1px solid rgb(197, 197, 187);
 }
 
 .info_detail{
+  /* background-color: blanchedalmond; */
   padding:10px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   text-align: left;
+  border: 1px solid rgb(197, 197, 187);
+
+}
+
+.imageSize{
+  width:20%;
+}
+.label{
+  color:white;
+  padding:2px;
+  /* padding-bottom: 10px; */
+}
+
+.topInfo{
+  display: flex;
+  align-items: center;
+}
+.topTemperature{
+  padding: 5px;
+  color: yellow;
+}
+
+.inputForm{
+  width: 15%;
+  border-radius: 20px 0px 0px 20px;
+  padding: 15px;
+  border-style: none;
+}
+
+.submitBtn{
+  border-radius: 0px 20px 20px 0px;
+  padding: 15px; 
+  border-style: none;
+  width: 8%;
+}
+
+.completePageInfo{
+  padding-top: 50px;
+}
+
+.incorrectCity{
+  margin-top: 20px;
+  text-align: center;
+  color: aqua;
 }

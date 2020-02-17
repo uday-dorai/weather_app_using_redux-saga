@@ -8,7 +8,7 @@ const initialState={
 const reducer = (state = initialState,action)=>{
     switch(action.type){
         case WEATHER_INFO:
-            const data = action.payload
+            const data = action.payloadweatherDetweatherDetailail
             console.log(data)
             return{
                 ...state,
